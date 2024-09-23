@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS-EAPL</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./blog.css">
+  <link rel="stylesheet" href="./global.css">
+  <script type=module src=main.js></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <my-header></my-header>
+  <main>
+      <section class="  hero-section">
+         <div class="container">
+            <h1>News and Events</h1>
+         </div>
+      </section>
+      <style>
+         .hero-section {
+         color: white; 
+         background-image: url('./images/Banner-News&Events.png'); 
+         background-size: cover; 
+         background-position: center; 
+         min-height: 400px; 
+         display: flex;
+         align-items: flex-end; /* Aligns content to the bottom */
+         justify-content: flex-start; /* Aligns content to the left */
+         text-align: left;
+         /* padding-left: 2%; Left padding to create some space from the edge */
+         padding-bottom: 20px; /* Bottom padding to move content up slightly from the very bottom */
+         }
+         .overlay-content {
+         max-width: 90%;
+         }
+         h1 {
+         margin: 0;
+         font-size: 3rem; /* Default size */
+         font-weight: bold;
+         }
+         /* Responsive adjustments for smaller screens */
+         @media (max-width: 768px) {
+         .hero-section {
+         /* padding-left: 10%; More padding for better text visibility */
+         padding-bottom: 10px; /* Slightly less bottom padding */
+         }
+         h1 {
+         font-size: 2.5rem; /* Smaller font size */
+         }
+         }
+         @media (max-width: 480px) {
+         .hero-section {
+         /* padding-left: 5%; Even more padding for very small screens */
+         padding-bottom: 5px; /* Minimal bottom padding */
+         }
+         h1 {
+         font-size: 2.2rem; /* Smaller font size for mobile screens */
+         }
+         }
+         /* Adjustments for screens larger than 768px */
+         @media (min-width: 768px) {
+         .hero-section {
+         /* padding-left: 2%; Slightly more padding than the default */
+         padding-bottom: 30px; /* More bottom padding for aesthetic balance */
+         }
+         h1 {
+         font-size: 3.5rem; /* Larger font size for better visibility on bigger screens */
+         }
+         .overlay-content {
+         max-width: 70%; /* Larger max-width for a more extended text line */
+         }
+         }
+      </style>
+      <!-- ------------------------------------------------------------------------------------------------         -->
+      <div class="container py-3">
+         <!-- <h2 class="mb-3">Latest News and Events</h2> -->
+         <!-- Dropdown Filter -->
+         <div class="mb-3 d-flex justify-content-end">
+            <select class="custom-select" onchange="filterSelection(this.value)">
+               <option value="all">All</option>
+               <option value="news">News</option>
+               <option value="events">Events</option>
+               
+            </select>
+         </div>
+         <!-- Card Grid -->
+         <div class="row">
+            <div class="col-md-4 filterDiv news">
+               <div class="card">
+                  <div class="label-top-corner">News</div>
+                  <img src="./images/make in india.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Make In India Award-2016</h5>
+                     <p class="card-text">Selected as the winner in the category of Electronic system in the prestigious event, Make in India - the challenges and opportunities held on 01/07/2016 in New Delhi.</p>
+                     <a href="./pdf/Make In India Award.pdf" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 filterDiv events">
+               <div class="card">
+                  <div class="label-top-corner">events</div>
+                  <img src="./images/Lahari.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">An association to facilitate innovation</h5>
+                     <p class="card-text">Proud to be a part of Lahari a Make in India initiative under the aegis of Govt. of India to facilitate the manufacturing of quality electronic products. Now EAPL will benefit from the privileged access to testing, inspection and certification. More heights to conquer.</p>
+                     <a href="./pdf/An association to facilitate innovation.pdf" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="col-md-4 filterDiv news">
+               <div class="card">
+                  <div class="label-top-corner">News</div>
+                  <img src="./images/home-hero-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">News Title</h5>
+                     <p class="card-text">Some quick example text related to news content.</p>
+                     <a href="#" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div> -->
+            <!-- <div class="col-md-4 filterDiv events">
+               <div class="card">
+                  <div class="label-top-corner">events</div>
+                  <img src="./images/about-hero-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">events Title</h5>
+                     <p class="card-text">Some quick example text related to news content.</p>
+                     <a href="#" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 filterDiv news">
+               <div class="card">
+                  <div class="label-top-corner">News</div>
+                  <img src="./images/product-hero-banner.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">News Title</h5>
+                     <p class="card-text">Some quick example text related to news content.</p>
+                     <a href="#" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 filterDiv events">
+               <div class="card">
+                  <div class="label-top-corner">events</div>
+                  <img src="./images/industry.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">events Title</h5>
+                     <p class="card-text">Some quick example text related to news content.</p>
+                     <a href="#" class="btn btn-link">Read more &raquo;</a>
+                  </div>
+               </div>
+            </div> -->
+            <!-- Repeat for each card, updating titles and content as necessary -->
+         </div>
+         <!-- Pagination -->
+         <!-- <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination">
+                <prev class="page-item"><a class="" href="#">Previous</a></prev>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <prev class="page-item"><a class="" href="#">Next</a></prev>
+            </ul>
+            </nav> -->
+         <!-- Pagination logic here -->
+      </div>
+      <script>
+         function filterSelection(category) {
+             var x, i;
+             x = document.getElementsByClassName("filterDiv");
+             for (i = 0; i < x.length; i++) {
+                 if (category === "all") {
+                     x[i].style.display = "block";
+                 } else if (x[i].classList.contains(category)) {
+                     x[i].style.display = "block";
+                 } else {
+                     x[i].style.display = "none";
+                 }
+             }
+         }
+      </script>
+   </main>
+   <my-footer></my-footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <!-- Custom Elements JS -->
+  <script>

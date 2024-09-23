@@ -1,0 +1,133 @@
+.hero-section h1{
+    font-size: 45px;
+    /* font-weight: 900; */
+    text-align: left;
+    }
+    @media (max-width: 768px) {
+    .hero-section h1  {
+    color: #fff;
+    font-size: 35px;
+    }
+    }
+/* ------------------------------------------------- */
+
+.blog-section {
+    background-color: #fff; /* Change this to match your desired background color */
+    width: 100%;
+    padding: 0px 0; /* Adjust the padding to fit your design */
+    text-align: left;
+    
+}
+
+.blog-title {
+    color: #003366; /* Adjust title color as needed */
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between the title and the content */
+    font-weight: 300;
+}
+
+.blog-content {
+    color: #003366; /* Adjust content text color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+
+}
+
+
+
+
+
+    /* --------------------------------------------- */
+   /* General Styles */
+
+
+.containerx {
+    background: white;
+    padding: 20px;
+    border-radius: 5px; /* Smooth edges of the container */
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.12); Subtle shadow for depth */
+}
+
+/* Dropdown styling */
+.custom-select {
+    width: 10%; /* Ensure the dropdown fills the container */
+    padding-left: 15px; /* Sufficient padding for touch friendliness */
+    border-radius: 25px;
+    /* border: 1px solid #ced4da; Consistent border styling */
+}
+
+/* Card and Grid styling */
+.card {
+    background-color: #f9f9f9;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); Consistent shadow for cards */
+    transition: transform .3s; /* Smooth transition for interaction */
+    margin-bottom: 20px; /* Space between cards */
+    border-style: none;
+}
+.card h5{
+   font-weight: 600;
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slight scale on hover for effect */
+}
+
+.card-img-top {
+    width: 100%; /* Ensures image takes full width of the card */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image covers the area properly */
+}
+
+.card-title {
+    color: #000000; /* Darker text for better readability */
+}
+
+.card-text {
+    color: #000000; /* Lighter text provides a subtle contrast */
+    font-size: 14px; /* Optimal readability for summary text */
+}
+
+.btn-link {
+    /* background-color: #007bff; Bootstrap primary color */
+    color: #ff8800 ; /* Border color to match */
+    text-decoration: none;
+    padding: 0px;
+    
+}
+
+.btn-primary:hover {
+    /* background-color: #0056b3; /* Darker shade on hover for interaction feedback */
+    border-color: #004085; 
+}
+
+/* Responsive Grid Layout */
+@media (max-width: 767px) {
+    .col-md-4 {
+        width: 100%; /* Stacks the cards on smaller screens */
+        margin-bottom: 20px;
+    }
+}
+
+.page-link a{
+    justify-content: space-around;
+
+}
+/* ------label--------- */
+.card {
+    position: relative;
+}
+
+.label-top-corner {
+    position: absolute;
+    top: 8px;      /* Adjust these values as needed */
+    left: 290px;
+    background-color: #ff8800; /* Red background for visibility */
+    color: #ffffff;            /* White text */
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+}

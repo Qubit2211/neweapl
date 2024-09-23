@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protection Relay</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./productssolution.css">
+  <link rel="stylesheet" href="./global.css">
+  <script type=module src=main.js></script>
+</head>
+<body>
+  <my-header></my-header>
+      <main>
+         <section class="hero-section">
+            <div class="overlay-content">
+               <h1>Protection Relay</h1>
+            </div>
+         </section>
+         <section class="container about-product my-3">
+            <div class="row">
+               <div class="col">
+                  <h5>
+                     Protection Relay Also known as single phase preventers, they help the user to monitor the functionality of given power parameters and control the same by taking appropriate action through relay output. Both analog and digital versions are available. While analog versions come with few parameters and factory set values, digital versions are more versatile helping the user to select the parameters and limits. These units display functional faults and help user to monitor the instant values while functioning faultlessly
+                  </h5>
+               </div>
+            </div>
+         </section>
+         <section class="container py-5">
+            <div class="tab-list">
+               <a class="nav-link scrollto active" href="#Single-Phase-Preventers">Single Phase Preventers</a>
+               <a class="nav-link scrollto" href="#Digital-Version">Digital Version</a>
+               <!--<a class="nav-link scrollto" href="#B-Series">B-Series</a>-->
+            </div>
+            <script>
+               document.querySelectorAll('.tab-list a').forEach(function(tab) {
+                   tab.addEventListener('click', function(event) {
+                       event.preventDefault();
+                       document.querySelector('.tab-list a.active').classList.remove('active');
+                       tab.classList.add('active');
+                       document.querySelectorAll('.product').forEach(function(product) {
+                           product.style.display = 'none';
+                       });
+                       document.querySelector(tab.getAttribute('href')).style.display = 'flex';
+                   });
+               });
+            </script>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="product product-content" id="Single-Phase-Preventers">
+                     <img src="./images/Single phase preventers PMD 03.png" alt="Single-Phase Preventers">
+                     <div class="product-info">
+                        <h3>Single-Phase Preventers</h3>
+                        <div class="features">
+                           <h5>Features</h5>
+                           <ul class="feature-list">
+                              <li>Resetting possible in manual mode from front button / rear terminals.</li>
+                           </ul>
+                        </div>
+                        <div class="applications">
+                           <h5>Applications</h5>
+                           <p>Motors, pumps, generators and Compressor panels and many more.</p>
+                        </div>
+                        <div class="button-container-product py-3">
+                           <!-- Buttons with icons -->
+                           <button class="button">
+                           <i class="bi bi-download"></i> Informations
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-gear"></i> Specifications
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-node-plus"></i> Connection Diagram
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="product product-content" id="Digital-Version" style="display: none;">
+                     <img src="./images/digital-timer.png" alt="Digital Version">
+                     <div class="product-info">
+                        <h3>Digital Version</h3>
+                        <div class="features">
+                           <h5>Features</h5>
+                           <ul class="feature-list">
+                              <li>Displays instant values of specified parameters during healthy condition and type of fault during fault conditions</li>
+                              <li>Programmable trip delay time and limits for each parameter</li>
+                              <li>Relays NO/NC status during healthy condition – User Selectable.</li>
+                              <li>bypass option for undesired protection feature</li>
+                           </ul>
+                        </div>
+                        <div class="applications">
+                           <h5>Applications</h5>
+                           <p>Any 3 phase 4wire systems like motors, pumps, generators / distribution / MCC panels, air conditioners, elevators, cranes, escalators and many more.</p>
+                        </div>
+                        <div class="button-container-product py-3">
+                           <!-- Buttons with icons -->
+                           <button class="button">
+                           <i class="bi bi-download"></i> Informations
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-gear"></i> Specifications
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-node-plus"></i> Connection Diagram
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <!--<div class="product product-content" id="B-Series" style="display: none;">
+                     <img src="./images/B-series.png" alt="B-Series">
+                     <div class="product-info">
+                        <h3>B-Series</h3>
+                        <div class="features">
+                           <h5>Features</h5>
+                           <ul class="feature-list">
+                              <li>Suitable for Din Rail & Screw Mounting.</li>
+                              <li>LED indication for timing in progress.</li>
+                              <li>Terminal Block safety Protective cover.</li>
+                           </ul>
+                        </div>
+                        <div class="applications">
+                           <h5>Applications</h5>
+                           <p>Suitable for Din Rail / Screw Mounting AMF Panels, Automation Panels, HT / LT Panels, MCC Panels, C & R Panels, RTCC Panels, Transformer Panels and many more.</p>
+                        </div>
+                        <div class="button-container-product py-3">-->
+                           <!-- Buttons with icons -->
+                           <!--<button class="button">
+                           <i class="bi bi-download"></i> Informations
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-gear"></i> Specifications
+                           </button>
+                           <button class="button">
+                           <i class="bi bi-node-plus"></i> Connection Diagram
+                           </button>
+                        </div>-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <my-footer></my-footer>
+
+         <!-- Bootstrap JS and dependencies -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+         <!-- Custom Elements JS -->
+       </html>

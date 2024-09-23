@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Product Slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+        }
+        .product {
+            margin: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center">Product Slider</h2>
+    <div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 1" class="img-fluid">
+                        <h5>Product 1</h5>
+                    </div>
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 2" class="img-fluid">
+                        <h5>Product 2</h5>
+                    </div>
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 3" class="img-fluid">
+                        <h5>Product 3</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 4" class="img-fluid">
+                        <h5>Product 4</h5>
+                    </div>
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 5" class="img-fluid">
+                        <h5>Product 5</h5>
+                    </div>
+                    <div class="col-md-4 product">
+                        <img src="https://via.placeholder.com/150" alt="Product 6" class="img-fluid">
+                        <h5>Product 6</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

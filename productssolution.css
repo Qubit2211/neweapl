@@ -1,0 +1,117 @@
+.hero-section {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 120px;
+    background-color: #0070aa;
+    position: relative;
+}
+/* .overlay-content {
+    position: absolute;
+    top: 36%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+.overlay-content {
+    padding-top: 35px;
+    padding-left: 0px;
+
+    /* position: absolute; */
+    /* top: 36%;
+    left: 21%;
+    /* transform: translate(-50%, -50%); */
+    /* text-align: center; */ 
+}
+.tab-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tab-list .nav-link {
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: #000;
+}
+.tab-list .nav-link.active {
+    background-color: #0070aa;
+    color: #fff;
+}
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ff7f00;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.button i {
+    margin-right: 5px;
+}
+.product-content {
+    display: flex;
+    align-items: center;
+}
+.product-content img {
+    flex: 1;
+    max-width: 80%;
+    height: 350px;
+}
+.product-info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+/* ======================================= */
+@media (max-width: 768px) {
+    /* Adjust tab list for smaller screens */
+    .tab-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab-list a {
+        margin: 10px 0;
+    }
+
+    /* Stack product content vertically */
+    .product-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%; /* Make images responsive */
+        max-width: 300px; /* Limit max width */
+    }
+
+    .button-container-product {
+        flex-direction: column; /* Stack buttons */
+    }
+
+    .button-container-product a {
+        margin: 5px 0; /* Space between buttons */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Further adjustments for extra small devices */
+    .product-info {
+        padding: 0 15px; /* Add padding for better spacing */
+    }
+
+    .product h3 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .product p {
+        font-size: 0.9rem; /* Smaller font size for better readability */
+    }
+}

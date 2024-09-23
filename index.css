@@ -1,0 +1,157 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+body{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    .container .row {
+      flex-direction: column;
+    }
+    .container .row > div {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .count-text {
+      font-size: 0.9rem; /* Slightly smaller font on smaller screens */
+    }
+  
+    .count-title {
+      font-size: 2rem; /* Adjust title size */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .count-title {
+      font-size: 1.5rem; /* Further adjust title size for mobile */
+    }
+  
+    .count-text {
+      font-size: 0.8rem; /* Further reduce text size */
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem; /* Responsive heading size */
+    }
+
+    .lead {
+        font-size: 1.2rem; /* Responsive subheading size */
+    }
+
+    p {
+        font-size: 0.95rem; /* Slightly smaller paragraph text */
+    }
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 2rem; /* Further reduce heading size for very small screens */
+    }
+
+    p {
+        font-size: 0.85rem; /* Further reduce paragraph text size */
+    }
+}
+
+
+
+.icon img {
+    width: 80px; /* Resize images for small screens */
+    height: auto; /* Maintain aspect ratio */
+}
+/* Basic styles for service boxes */
+.service-box {
+    padding: 20px;
+    border: 1px solid #eaeaea; /* Optional border for better visibility */
+    border-radius: 8px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .service-box {
+        padding: 15px; /* Less padding for smaller screens */
+    }
+
+    .icon img {
+        width: 80px; /* Resize images for small screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 576px) {
+    .icon img {
+        width: 60px; /* Further resize images for very small screens */
+    }
+
+    h3 {
+        font-size: 1.25rem; /* Smaller font size for headings */
+    }
+
+    p {
+        font-size: 0.9rem; /* Smaller font size for paragraphs */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-title {
+      font-size: 1.2rem; /* Smaller heading for tablets */
+    }
+  
+    .card-text {
+      font-size: 0.9rem; /* Smaller paragraph text */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1rem; /* Further adjust heading size for mobile */
+    }
+  
+    .card-text {
+      font-size: 0.8rem; /* Further reduce paragraph text size */
+    }
+  }
+  
+
+  
+/* products list */
+
+.product-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.product-slider::-webkit-scrollbar {
+  display: none;
+}
+.product-card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 150px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+.product-card .title {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.product-card .price {
+  color: green;
+}

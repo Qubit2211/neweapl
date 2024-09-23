@@ -1,0 +1,186 @@
+
+body{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#future{
+  color: #ffffff;
+  font-size:xx-large;
+}
+/* ------------------------------------------------------------------- */
+.nav-item.dropdown {
+  position: static; /* Default positioning */
+}
+
+.dropdown-menu {
+  position: absolute; /* Absolute positioning relative to nearest positioned ancestor */
+  left: 50%; /* Center the dropdown */
+  transform: translateX(50%); /* Correct centering by translating back by half of its width */
+  width: auto; /* Auto width based on content */
+}
+
+.dropdown-col {
+  min-width: 180px; /* Ensures each column has at least 180px */
+  padding: 10px;
+}
+button{
+  margin-top: 3px;
+  padding: 5px;
+}
+#xeshop{
+  border-radius: 25px;
+  background-color: #0070aa;
+  color: rgb(255, 255, 255);
+  border-style: none;
+}
+.btn-outline-secondary {
+  border-color: #ff6600;
+  background-color:#ff6600 ;
+  color: #ffffff; /* Example text color */
+  /* border-style: none; */
+  border-radius: 25px;
+  }
+  #xeshop:hover {
+  border-color: #ff6600;
+  background-color: #ff6600; /* Example hover background color */
+  color: #fff; /* White text on hover */
+  }
+/* ----------------------------------------------------- */
+
+
+  /* ------------------------------ */
+  .logoeapl{
+  font-size:xx-large;
+  }
+/* ---------------------------------------- */
+/*  */
+
+  /* ------------------------- */
+  .right-align-container {
+  text-align: right; /* Aligns child elements to the right */
+  padding-right: 30px;
+  padding-top: 20px;
+  position: relative;
+  }
+  .navbar{
+  padding-top: 0px;
+  padding-bottom: 0px ;
+  }
+  .navbar-brand{
+  color: #000;
+  font-weight: 800;
+  }
+  .nav-item a{
+  font-size: medium;
+  /* font-weight: 800; */
+  color: #000000;
+  /* justify-content: space-around; */
+  /* color: #ff7b00; */
+  }
+  .nav-item a:hover{
+  font-size: medium;
+  /* font-weight: 900; */
+  color: #ff7b00;
+  }
+  /* Styles for the navbar toggler button */
+  .navbar-toggler {
+  background-color: #0070aa; /* Blue background color */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 16px; /* Padding for better touch area */
+  color: white; /* White text for icon */
+  outline: none; /* Removes outline */
+  }
+  /* Ensure the navbar toggler remains visible and stylish on focus and hover */
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+  background-color: #ff7b00; /* Darker blue on hover/focus */
+  outline: none; /* Ensures no outline on focus */
+  }
+  /* Styles for the navbar toggler icon */
+  .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=UTF8,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e'); /* SVG for the toggler icon */
+  display: inline-block;
+  width: 18px; /* Width of the icon */
+  height: 18px; /* Height of the icon */
+  vertical-align: middle;
+  }
+  .nav-item{
+  justify-content: space-between;
+  padding-left: 30px;
+  }
+  #xactive {
+  color: #ff6600;
+  }
+
+
+/* ---------------------------------footer styling--------------------------------------------------- */
+
+    /* ------------GLOBAL STYLING---------------*/
+    .connect-with-us{
+      background-color: #003366;
+      text-align: center;
+      justify-content: space-around;
+      /* padding: 60px; */
+      margin-bottom: 30px;
+      }
+      .button-container h1{
+      color: #fff;
+      /* padding: 30px; */
+      }
+      .connect-button {
+      background-color: #FF6C2C; /* Orange color for the button */
+      color: white;
+      border: none;
+      border-radius: 25px; /* Rounded corners */
+      /* Padding inside the button */
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none; /* Remove underline from the link */
+      font-size: 16px;
+      padding: 10px 30px;
+      }
+      .connect-button:hover {
+      background-color: #DD5B1A; /* Slightly darker orange on hover */
+      color: #fff;
+      }
+      /* ---------------------------footer---------------------------------- */
+      .footer {
+      background-color: #000; /* Black background */
+      color: #fff; /* White text */
+      }
+      .footer h5 {
+      margin-bottom: 1rem;
+      }
+      .footer ul {
+      padding: 0;
+      list-style: none;
+      }
+      .footer ul li,
+      .footer ul li a {
+      color: #fff; /* Ensure links are also white */
+      text-decoration: none;
+      }
+      .footer ul li a:hover {
+      text-decoration: underline; /* Optional: underline on hover for links */
+      }
+      /* Optional: Social media icons color */
+      .footer .list-inline-item a {
+      color: #fff; /* White text for social media links */
+      }
+      .footer .list-inline-item a:hover {
+      color: #ccc; /* Light grey for hover state */
+      }
+      /* Footer bottom text */
+      .footer p {
+      margin-top: 2rem; /* Space above the copyright text */
+      font-size: 0.9rem;
+      text-align: center;
+      }
+
+   
+ 
