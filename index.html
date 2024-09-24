@@ -78,28 +78,51 @@
       </style>
       
       
-         <div class="container text-center py-3">
-            <div class="row">
-              <div class="col">
-                <h2><span class="timer count-title count-number" data-to="40" data-speed="2000" data-text=" ">0</span></h2>
-                <p class="count-text">Years of Experience</p>
-              </div>
-              <div class="col">
-                <h2><span class="timer count-title count-number" data-to="300" data-speed="2000" data-text="+">0</span></h2>
-                <p class="count-text">Projects</p>
-              </div>
-              <div class="col">
-                <h2><span class="timer count-title count-number" data-to="1" data-speed="1500" data-text="M+">0</span></h2>
-                <p class="count-text">Installation</p>
-              </div>
-              <div class="col">
-                <h2><span class="timer count-title count-number" data-to="600" data-speed="2000" data-text="+">0</span></h2>
-                <p class="count-text">People</p>
-              </div>
-            </div>
+      <div class="container text-center py-3">
+        <div class="row">
+          <div class="col">
+            <h2><span class="timer count-title count-number" data-to="40" data-speed="2000" data-text=" ">0</span></h2>
+            <p class="count-text">Years of Experience</p>
           </div>
-
-          <div class="container text-left py-5">
+          <div class="col">
+            <h2><span class="timer count-title count-number" data-to="300" data-speed="2000" data-text="+">0</span></h2>
+            <p class="count-text">Projects</p>
+          </div>
+          <div class="col">
+            <h2><span class="timer count-title count-number" data-to="1" data-speed="1500" data-text="M+">0</span></h2>
+            <p class="count-text">Installation</p>
+          </div>
+          <div class="col">
+            <h2><span class="timer count-title count-number" data-to="600" data-speed="2000" data-text="+">0</span></h2>
+            <p class="count-text">People</p>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+        .count-text {
+          font-size: 1rem; /* Default font size */
+        }
+      
+        @media (max-width: 576px) {
+          .count-text {
+            font-size: 0.8rem; /* Smaller font size for mobile */
+          }
+      
+          .row {
+            flex-wrap: nowrap; /* Prevent wrapping to keep it in one row */
+            overflow-x: auto; /* Allow horizontal scrolling */
+          }
+      
+          .col {
+            flex: 0 0 auto; /* Allow columns to shrink to fit content */
+            width: 25%; /* Set width to ensure they fit in one row */
+          }
+        }
+      </style>
+      
+      
+          <div class="container text-left py-3">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 mb-4">
                     <h2 class="display-4">EAPL's Legacy of Excellence</h2>

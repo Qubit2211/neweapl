@@ -9,36 +9,6 @@ body{
 }
 
 
-@media (max-width: 768px) {
-    .container .row {
-      flex-direction: column;
-    }
-    .container .row > div {
-      flex: 0 0 auto;
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .count-text {
-      font-size: 0.9rem; /* Slightly smaller font on smaller screens */
-    }
-  
-    .count-title {
-      font-size: 2rem; /* Adjust title size */
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .count-title {
-      font-size: 1.5rem; /* Further adjust title size for mobile */
-    }
-  
-    .count-text {
-      font-size: 0.8rem; /* Further reduce text size */
-    }
-  }
-  
 
   @media (max-width: 768px) {
     .display-4 {
