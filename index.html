@@ -78,7 +78,7 @@
       </style>
       
       
-      <div class="container text-center py-3">
+      <div class="container text-center py-3 count-section">
         <div class="row">
           <div class="col">
             <h2><span class="timer count-title count-number" data-to="40" data-speed="2000" data-text=" ">0</span></h2>
@@ -100,21 +100,21 @@
       </div>
       
       <style>
-        .count-text {
+        .count-section .count-text {
           font-size: 1rem; /* Default font size */
         }
       
         @media (max-width: 576px) {
-          .count-text {
+          .count-section .count-text {
             font-size: 0.8rem; /* Smaller font size for mobile */
           }
       
-          .row {
+          .count-section .row {
             flex-wrap: nowrap; /* Prevent wrapping to keep it in one row */
             overflow-x: auto; /* Allow horizontal scrolling */
           }
       
-          .col {
+          .count-section .col {
             flex: 0 0 auto; /* Allow columns to shrink to fit content */
             width: 25%; /* Set width to ensure they fit in one row */
           }
