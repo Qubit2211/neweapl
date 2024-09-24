@@ -83,27 +83,27 @@ class MyHeader extends HTMLElement {
                         <li class="d-flex">
                             <ul class="list-unstyled p-2">
                                 <li><a class="dropdown-item" href="Electronic Timer.html">Electronic Timers</a></li>
-                                <li><a class="dropdown-item" href="digital-timers.html">Digital Timers</a></li>
-                                <li><a class="dropdown-item" href="Programmable Alarm Annunciators.html">Programmable Annunciator</a></li>
-                                <li><a class="dropdown-item" href="auxiliary relays.html">Auxiliary Relays</a></li>
-                                <li><a class="dropdown-item" href="Digital Time Switches.html">Digital Time Switch</a></li>
-                                <li><a class="dropdown-item" href="Electronic Solid state Buzzer.html">Electronic Solid State Buzzer</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Digital Timers</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Programmable Annunciator</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Auxiliary Relays</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Digital Time Switch</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Electronic Solid State Buzzer</a></li>
                             </ul>
                             <ul class="list-unstyled p-2">
-                                <li><a class="dropdown-item" href="Sequential Timers- S Series.html">Sequential Timers - S Series</a></li>
-                                <li><a class="dropdown-item" href="Combination Timers.html">Combination Timers</a></li>
-                                <li><a class="dropdown-item" href="ENERGY METER.html">Energy Meter</a></li>
-                                <li><a class="dropdown-item" href="Universal Temperature Controller.html">Temperature Controller</a></li>
-                                <li><a class="dropdown-item" href="Protection Relays.html">Protection Relays</a></li>
-                                <li><a class="dropdown-item" href="Preset Counters.html">Preset Counters</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Sequential Timers - S Series</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Combination Timers</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Energy Meter</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Temperature Controller</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Protection Relays</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Preset Counters</a></li>
                             </ul>
                             <ul class="list-unstyled p-2">
-                                <li><a class="dropdown-item" href="Digital Non-Contact Tachometer.html">Tachometer</a></li>
-                                <li><a class="dropdown-item" href="Switch Mode Power Supplies.html">Power Supply Module</a></li>
-                                <li><a class="dropdown-item" href="Light Switch.html">Light Switch</a></li>
-                                <li><a class="dropdown-item" href="Photo Sensing Relay.html">Photo Relay</a></li>
-                                <li><a class="dropdown-item" href="PUMP CONTROLLER.html">Pump Controller</a></li>
-                                <li><a class="dropdown-item" href="SPPT – Autoswitch.html">SPPT - AutoSwitch</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Tachometer</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Power Supply Module</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Light Switch</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Photo Relay</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">Pump Controller</a></li>
+                                <li><a class="dropdown-item" href="./Electronic Timer.html">SPPT - AutoSwitch</a></li>
                             </ul>
                         </li>
                     </ul>
